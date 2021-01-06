@@ -1,0 +1,59 @@
+.navbar{
+    background-color:#192041 !important;
+}
+.logo-img{
+    width:210px;
+    height:auto;
+}
+.logo-img:hover{
+    opacity: .5;
+}
+.header-wrapper{
+    background-color:#192041 !important;
+}
+ 
+
+  
+  .brand-text{
+    padding-top:10px !important;
+  }
+.brand-text:hover{
+    opacity: .5;
+}
+@media screen and (max-width: 1920px) {
+    .brand-text{
+        font-size:1.5vw !important;
+        color:#87c2eb !important;
+    }
+   }
+   
+   @media screen and (max-width: 1400px) {
+     .brand-text{
+         font-size:1.5vw !important;
+         color:#87c2eb !important;
+     }
+   }
+   @media screen and (max-width: 1024px) {
+     .brand-text{
+         font-size:2vw !important;
+         color:#87c2eb !important;
+     }
+   }
+   @media screen and (max-width: 800px) {
+     .brand-text{
+         font-size:2.5vw !important;
+         color:#87c2eb !important;
+     }
+   }
+   @media screen and (max-width: 360px) {
+     .brand-text{
+         font-size:3.5vw !important;
+         color:#87c2eb !important;
+     }
+   }
+   @media screen and (max-width: 300px) {
+     .brand-text{
+         font-size:3.5vw !important;
+         color:#87c2eb !important;
+     }
+   }

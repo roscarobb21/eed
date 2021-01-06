@@ -1,0 +1,23 @@
+.admitere-wrapper{
+    text-align: center;
+    background-image: url("../../assets/usv-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.admitere-option{
+    background-color: #aa0000;
+    margin-top:1vh;
+    height:20vh;
+}
+.admitere-option:hover{
+    cursor:pointer;
+}
+.admitere-text-option{
+    color:white;
+    padding:70px;
+}
+.admitere-text-option:hover{
+    opacity: .5;
+}

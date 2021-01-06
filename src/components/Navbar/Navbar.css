@@ -1,0 +1,38 @@
+.second-navbar{
+    background-color:#272f54 !important;
+    padding-left:4vw !important;
+}
+
+.second-wrapper{
+    background-color:#272f54 !important;
+}
+
+.search-bar{
+    width: 100%;
+}
+.search-img{
+    width: 20px;
+}
+.search-img:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+#search-box{
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.navbar-toggler-icon {
+    background-image: url("../../assets/menu.png") !important;
+  }
+.search-icon-toggler {
+    background-image: url("../../assets/search.png") !important;
+}
+.brand-hover:hover{
+    opacity: .5;
+}
+
+.helper{
+    border:solid;
+    border-color:red;
+}

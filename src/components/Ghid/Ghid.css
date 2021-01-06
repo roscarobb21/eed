@@ -1,0 +1,8 @@
+.ghid-wrapper{
+ margin-top: 2vh;
+}
+
+.ghid-link:hover{
+    cursor: pointer;
+    opacity: .5;
+}
