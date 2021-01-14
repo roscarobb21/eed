@@ -1,7 +1,8 @@
 import React from 'react';
 import {Container, Row, Col} from 'reactstrap'
 import { Badge } from 'reactstrap';
-import { ListGroup, ListGroupItem, List } from 'reactstrap';
+import { List } from 'reactstrap';
+import {Link} from 'react-router-dom';
 import './Anunturi.css'
 
 class Anunturi extends React.Component{
@@ -64,20 +65,20 @@ class Anunturi extends React.Component{
 <Container>
     <Row style={{textAlign:'center'}}>
         <Col  md={{ size: 4, order: 1 }} lg="4"><div>
-            <p>Anunturi</p>
+            <Link className="links-style" to="/anunturi/1"><p>Anunturi</p></Link>
             <List type="unstyled">
              {this.generateAnunturi()}
             </List>
     </div></Col>
 
         <Col md={{ size: 4, order: 3 }} lg="4"><div>
-            <p>Locuri de munca</p>
+        <Link className="links-style" to="/anunturi/3"> <p>Locuri de munca</p></Link>
             <List type="unstyled">
              {this.generateLocuriMunca()}
             </List></div>
     </Col >
         <Col md={{ size: 4, order: 2 }} lg="4"><div>
-            <p>Anunțuri de practică</p>
+        <Link className="links-style" to="/anunturi/2"> <p>Anunțuri de practică</p></Link>
             <List type="unstyled">
              {this.generatePractica()}
             </List></div>

@@ -1,3 +1,12 @@
 .anunturi-wrapper{
     margin-top:1%;
 }
+
+.links-style{
+    color:black;
+}
+
+.links-style:hover{
+    opacity: .5;
+    cursor:pointer;
+}

@@ -12,7 +12,7 @@ function Header(){
   return (
     <div className="header-wrapper">
         <Container>
-    <Navbar   expand="md">
+    <Navbar   expand="md" className="header-color">
         <Nav className="mx-auto">
       <NavbarBrand  href="http://usv.ro">
           <img className="logo-img mx-auto" src={usvLogo} alt="usv-logo"></img>

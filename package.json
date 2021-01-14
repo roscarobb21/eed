@@ -11,6 +11,7 @@
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-on-screen": "^2.1.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-sticky": "^6.0.3",
     "reactstrap": "^8.8.1",

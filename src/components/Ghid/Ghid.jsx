@@ -4,7 +4,6 @@ import {
     CardImg,
     CardText,
     CardBody,
-    CardDeck
 } from 'reactstrap';
 
 import './Ghid.css'

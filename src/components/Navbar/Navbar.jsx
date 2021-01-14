@@ -10,12 +10,11 @@ import {
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
-    Button,
     DropdownItem,
     Popover, PopoverHeader, PopoverBody,
   } from 'reactstrap';
 import search from '../../assets/search.png'
-import {Container, Row, Col} from 'reactstrap';
+import {Container} from 'reactstrap';
   import './Navbar.css'
 
 
@@ -106,8 +105,8 @@ togglePopoverMic=()=>{
   <Nav navbar className="">
         <NavbarBrand href="/" style={{color:'#f1b404'}} className="brand-hover">Home</NavbarBrand>
         </Nav>
-        {this.state.width<990?<img id="img-search-mic" src={search} className="search-img" onClick={this.toggleSearch}></img>:null}
-        <Popover placement="bottom" isOpen={this.state.popoverOpenMic} target="img-search-mic" toggle={this.togglePopoverMic} onMouseLeave={()=>{this.setState({popoverOpenMic:false})}}>
+        {this.state.width<990?<img id="img-search-mic" src={search} className="search-img" onClick={this.toggleSearch} alt="search"></img>:null}
+        <Popover placement="bottom" isOpen={this.state.popoverOpenMic} target="img-search-mic" toggle={this.togglePopoverMic} onClick={this.togglePopoverMic}>
         <PopoverHeader>Search on EED</PopoverHeader>
         <PopoverBody><input id="search-box" autoFocus className="search-bar" type="text" placeholder="Press enter to search" defaultValue={this.state.searchText} onBlur={()=>{this.setState({searching:false, searchText:document.getElementById("search-box").value})}} onKeyPress={evt=>this.fetchSearch(evt)}>
             
