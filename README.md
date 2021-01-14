@@ -41,6 +41,7 @@ In the project directory, run :
 ### `yarn build`
 
 Copy the contents of the `build` folder into {DriveLetter}:\xampp\htdocs
+Copy the `eed` folder into {DriveLetter}:\xampp\htdocs
 
 Start the server and access : [http://localhost](http://localhost), by default, it should run on port 80.
 

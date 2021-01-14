@@ -10,7 +10,9 @@
 
 # production
 /build
-
+/eed/vendor
+/eed/composer.lock
+/eed/composer.json
 # misc
 .DS_Store
 .env.local
