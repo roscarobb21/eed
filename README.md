@@ -10,22 +10,26 @@ This project was bootstrapped with Create React App.
 
 You can install yarn with `npm install yarn@latest -g`
 
-## Installing dependencies
+## Cloning and installing dependencies
+
+Clone the project
+
+### `git clone https://github.com/roscarobb21/eed.git` 
 
 In the project directory, you can run:
-### `npm install or yarn` 
+### `npm install || yarn` 
 it will create the `node_modules` folder. 
 
 ## Available Scripts:
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start || npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `yarn build`
+### `yarn build || npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -38,7 +42,7 @@ Your app is ready to be deployed!
 First, be sure that you have installed the necessary dependencies.
 In the project directory, run :
 
-### `yarn build`
+### `yarn build || npm run build`
 
 Copy the contents of the `build` folder into {DriveLetter}:\xampp\htdocs
 
